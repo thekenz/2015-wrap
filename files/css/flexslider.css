@@ -1,0 +1,272 @@
+
+.flexslider {
+
+    padding: 0
+
+}
+
+.flexslider .slides>li {
+
+    display: none;
+
+    -webkit-backface-visibility: hidden;
+
+    margin: 0
+
+}
+
+.flexslider .slides img {
+
+    width: 100%;
+
+    display: block
+
+}
+
+.flex-pauseplay span {
+
+    text-transform: capitalize
+
+}
+
+.slides:after {
+
+    content: "\0020";
+
+    display: block;
+
+    clear: both;
+
+    visibility: hidden;
+
+    line-height: 0;
+
+    height: 0
+
+}
+
+html[xmlns] .slides {
+
+    display: block
+
+}
+
+* html .slides {
+
+    height: 1%
+
+}
+
+.no-js .slides>li:first-child {
+
+    display: block
+
+}
+
+.flexslider {
+
+    margin: 0 0 25px;
+
+    position: relative;
+
+    zoom: 1
+
+}
+
+.flex-direction-nav {
+
+    *height: 0;
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0
+
+}
+
+.flex-direction-nav a {
+
+    display: block;
+
+    width: 40px;
+
+    height: 40px;
+
+    margin-top: -20px;
+
+    position: absolute;
+
+    top: 50%;
+
+    z-index: 10;
+
+    overflow: hidden;
+
+    opacity: 0;
+
+    cursor: pointer;
+
+    -webkit-transition: all .3s ease;
+
+    -moz-transition: all .3s ease;
+
+    transition: all .3s ease;
+
+    background: url(../images/sprites.png) no-repeat;
+
+    text-indent: -9999px
+
+}
+
+.flex-direction-nav .flex-prev {
+
+    left: -50px;
+
+    background-position: -40px 0
+
+}
+
+.flex-direction-nav .flex-next {
+
+    right: -50px;
+
+    background-position: 0 0
+
+}
+
+.flexslider:hover .flex-prev {
+
+    opacity: 1;
+
+    left: 10px
+
+}
+
+.flexslider:hover .flex-next {
+
+    opacity: 1;
+
+    right: 10px
+
+}
+
+.flexslider:hover .flex-next:hover,
+
+.flexslider:hover .flex-prev:hover {
+
+    opacity: .8
+
+}
+
+.flex-direction-nav .flex-disabled {
+
+    opacity: 0!important;
+
+    filter: alpha(opacity=0);
+
+    cursor: default
+
+}
+
+.flex-control-nav {
+
+    width: 100%;
+
+    position: absolute;
+
+    bottom: -40px;
+
+    text-align: center;
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0
+
+}
+
+.flex-control-nav li {
+
+    list-style: none!important;
+
+    padding: 0;
+
+    margin: 0 5px;
+
+    display: inline-block;
+
+    zoom: 1;
+
+    *display: inline
+
+}
+
+.flex-control-paging li a {
+
+    width: 6px;
+
+    height: 6px;
+
+    display: block;
+
+    border-radius: 6px;
+
+    -moz-border-radius: 6px;
+
+    -khtml-border-radius: 6px;
+
+    -webkit-border-radius: 6px;
+
+    text-indent: -9999px;
+
+    border: 1px solid transparent;
+
+    padding: 2px
+
+}
+
+.flex-control-paging li a span {
+
+    width: 6px;
+
+    height: 6px;
+
+    display: block;
+
+    background: #262626;
+
+    border-radius: 6px;
+
+    -moz-border-radius: 6px;
+
+    -khtml-border-radius: 6px;
+
+    -webkit-border-radius: 6px
+
+}
+
+.text-light .flex-control-paging li a span {
+
+    background: #fff
+
+}
+
+.flex-control-paging li a.flex-active {
+
+    border-color: #262626
+
+}
+
+.text-light .flex-control-paging li a.flex-active {
+
+    border-color: #fff
+
+}
+
+.flex-control-paging li a.flex-active span {
+
+    background: 0 0
+
+}
